@@ -1,1 +1,3 @@
-![Uploading 스크린샷 2024-11-17 오후 10.46.40.png…]()
+## 배포 다이어그램
+![배포 다이어그램](/src/public/images/diagram.png)
+
