@@ -1,6 +1,7 @@
 ## 배포 다이어그램
 ![배포 다이어그램](/src/public/images/deploy-diagram.png)
 
+GitHub Actions에 워크플로우는 다음과 같은 단계로 배포가 진행 됩니다.
 1. 저장소를 체크아웃합니다.
 2. Node.js 20 버전으로 설정합니다.
 3. 프로젝트 의존성을 설치합니다.
