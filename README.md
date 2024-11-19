@@ -1,7 +1,14 @@
 ## 배포 다이어그램
 ![배포 다이어그램](/src/public/images/deploy-diagram.png)
 
-
+GitHub Actions에 워크플로우는 다음과 같은 단계로 배포가 진행 됩니다.
+1. 저장소를 체크아웃합니다.
+2. Node.js 20 버전으로 설정합니다.
+3. 프로젝트 의존성을 설치합니다.
+4. Next.js 프로젝트를 빌드합니다.
+5. AWS 자격 증명을 구성합니다.
+6. 빌드된 파일을 S3 버킷에 동기화합니다.
+7. CloudFront 캐시를 무효화합니다.
 
 ## 주요 링크
 - S3 버킷 웹사이트 엔드포인트: http://front-3rd-chapter4.s3-website-us-east-1.amazonaws.com
